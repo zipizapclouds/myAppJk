@@ -8,10 +8,5 @@ pipeline {
                     sh 'echo "alive!"'
                 }
             }
-            stage('Test') {
-                steps {
-                    sh 'echo "alive!"'
-                }
-            }
         }
 }
